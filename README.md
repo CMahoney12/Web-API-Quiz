@@ -14,14 +14,14 @@ This is a quiz application using HTML, CSS, and Javascript. This application emp
 
 ## Authors
 
-*Chelsie Mahoney
+*Chelsie Mahoney 
 *chelsiesindar@gmail.com
 
 ## Acknowledgments
 
-*w3schools.com
-*getbootstrap.com
-*https://jshint.com/
-*https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc#file-readme-template-md
-*https://codepen.io/akerr95/pen/ZGyZmv
-*RedBull
+*w3schools.com 
+*getbootstrap.com 
+*https://jshint.com/ 
+*https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc#file-readme-template-md 
+*https://codepen.io/akerr95/pen/ZGyZmv 
+*RedBull 
