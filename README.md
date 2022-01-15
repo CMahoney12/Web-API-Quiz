@@ -4,6 +4,10 @@
 
 This is a quiz application using HTML, CSS, and Javascript. This application emphasizes the use of Javascript to provide quiz questions and collect user data to determine whether the answers to a question are correct, this then generates a score and a final page of results from the user data. 
 
+## Deployed Application
+
+https://cmahoney12.github.io/Web-API-Quiz/
+
 ## Screenshots
 
 <img width="1019" alt="Screen Shot 2022-01-15 at 1 19 01 PM" src="https://user-images.githubusercontent.com/93498408/149636573-730b400a-ddbf-4b1b-a9c3-7c694e84154b.png">
