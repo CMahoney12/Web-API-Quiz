@@ -84,7 +84,7 @@ function render(questionIndex) {
         questionsDiv.appendChild(ulCreate);
         ulCreate.appendChild(listItem);
         listItem.addEventListener("click", (compare));
-    })
+    });
 }
 // Event to compare choices with answer
 function compare(event) {
@@ -127,7 +127,7 @@ function allDone() {
     // Heading:
     var createH1 = document.createElement("h1");
     createH1.setAttribute("id", "createH1");
-    createH1.textContent = "All Done!"
+    createH1.textContent = "All Done!";
 
     questionsDiv.appendChild(createH1);
 
@@ -182,7 +182,7 @@ function allDone() {
             var finalScore = {
                 initials: initials,
                 score: timeRemaining
-            }
+            };
             console.log(finalScore);
             var allScores = localStorage.getItem("allScores");
             if (allScores === null) {
@@ -194,7 +194,7 @@ function allDone() {
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
             // Travels to final page
-            window.location.replace("./HighScores.html");
+            window.location.replace("./highscore.html");
         }
     });
 
