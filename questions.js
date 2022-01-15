@@ -1,31 +1,30 @@
 // Var with array and object for questions 
 var questions = [
     {
-        title: "The condition in an if / else statement is enclosed within ____.",
-        choices: ["quotes", "parentheses”, "curly brackets", "square brackets"],
-        answer: "parentheses"
-    },
-  {
         title: "Commonly used data types DO NOT include:",
-        choices: [“alerts”, “strings”, “numbers”, “booleans”],
+        choices: ["strings", "alerts", "booleans", "numbers"],
         answer: "alerts"
     },
     {
+        title: "The condition in an if / else statement is enclosed within ____.",
+        choices: ["quotes", "parentheses", "curly brackets", "square brackets"],
+        answer: "parentheses"
+    },
+    {
         title: "Arrays in Javascript can be used to store ____.",
-        choices: ["other arrays", "numbers and strings", "booleans", "all of the above"],
+        choices: ["numbers and strings", "other arrays", "booleans", "all of the above"],
         answer: "all of the above"
     },
-        title: "A very useful tool for used during development and debugging for printing content to the debugger is:",
-        choices: [“for loops”, "terminal / bash", “Javascript”, "console log"],
-        answer: "console log"
-    },
-
     {
         title: "String values must be enclosed within ____ when being assigned to variables.",
-        choices: [“quotes”, "curly brackets", “commas”, "parenthesis"],
+        choices: ["quotes", "curly brackets", "commas", "parenthesis"],
         answer: "quotes"
     },
     {
+        title: "A very useful tool for used during development and debugging for printing content to the debugger is:",
+        choices: ["for loops", "terminal / bash", "Javascript", "console log"],
+        answer: "console log"
+    },
 
 ];
 // Declared variables
@@ -196,7 +195,7 @@ function allDone() {
             localStorage.setItem("allScores", newScore);
             // Travels to final page
             window.location.replace("./highscore.html");
-        }
+        };
     });
 
 }
